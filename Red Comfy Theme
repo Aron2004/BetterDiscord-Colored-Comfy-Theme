@@ -1,0 +1,81 @@
+/**
+ * @name Red Comfy-theme
+ * @author Nyria#0001, edited by Woolf#1111
+ * @description A simple customisable comfy theme
+ * @version 1.0.0
+ */
+
+ @import "https://nyri4.github.io/Comfy-theme/BetterDiscord/main.css";
+
+    /* -- Addons -- */
+
+    /* BetterPopout --> Delete all until "Others settings" if u don't want it */
+    .note-3HfJZ5, .bodyTitle-Y0qMQz:nth-last-child(2), .footer-1fjuF6 { display: none; }
+    .body-3iLsc4 { padding: 0;}
+    .bodyTitle-Y0qMQz:nth-child(1) { padding: 15px 0 5px 10px; margin: 0;}
+    .rolesList-22qj2L { margin: 10px;}
+
+ :root {
+     /* BetterAvatar Popout */
+
+     --popout-status-icon: none; /* Set it to "block" if u want to have the status icon in big popouts */
+     --popout-status-mask: none; /* Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts */
+     --avatar-radius: 10%; /* Change the roundness of avatar in big popouts, u need to disable the mask to use this */
+
+    /* Colored emoji picker */
+     --colored-emoji: grayscale(0%); /* Change the value to "100%" if u want the basic one */
+
+    /* -- Others settings -- */
+
+    /* Mention color */
+    --mention-color-bar: #C66262;
+    --mention-color-background: #c662621f;
+    --mention-color-hover: #c6626226;
+
+    /* User settings color (Mute, Deafen and settings) */
+    --user-buttons-color: #c00909;
+
+    /* Chat buttons color */
+    --chat-buttons: #c25353;
+
+    /* Circles next to role names */
+    --role-circle: 7px; /* Set it to "0px" if u don't want circles */
+
+    /* Tooltips */
+    --tooltips: block; /* Set it to "none" if u don't want it */
+
+    /* Discord logo */
+    --discord-logo: none; /* Set it to "block" if u want it */
+
+ } /* thx snapperito and Harley for the help :3 */
+
+ .theme-dark {
+     --background-tertiary: #211011;
+     --background-secondary: #331e1e;
+     --background-secondary-alt: #2b1718;
+     --background-primary: #3d2323;
+     --channeltextarea-background: #2b1718;
+     --background-accent: #c75656;
+     --background-modifier-hover: #301c1c;
+     --background-modifier-active: #2e1a1a;
+     --background-modifier-selected: #2e1919;
+     --deprecated-card-bg: #12141f63;
+     --background-floating: #201010;
+     --deprecated-quickswitcher-input-background:#201010;
+     --scrollbar-auto-thumb: #221212;
+     --scrollbar-auto-track: #2e1919;
+     --scrollbar-thin-thumb: #251414;
+     --spotify-color: #c00909;
+     --elevation-low: none;
+ }
+
+ .theme-light {
+     --background-tertiary: #201010;
+     --background-secondary: #331e1e;
+     --background-secondary-alt: #2e1919;
+     --background-primary: #3d2323;
+     --header-primary: #fff;
+     --header-secondary: #b9b1b1;
+     --text-normal: #978e8e;
+     --scrollbar-thin-thumb: #251414;
+ }
