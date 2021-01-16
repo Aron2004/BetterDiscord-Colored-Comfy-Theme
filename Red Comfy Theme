@@ -59,7 +59,7 @@
      --background-modifier-hover: #301c1c;
      --background-modifier-active: #2e1a1a;
      --background-modifier-selected: #2e1919;
-     --deprecated-card-bg: #12141f63;
+     --deprecated-card-bg: #1f1212;
      --background-floating: #201010;
      --deprecated-quickswitcher-input-background:#201010;
      --scrollbar-auto-thumb: #221212;
